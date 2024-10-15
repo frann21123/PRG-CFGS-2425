@@ -15,7 +15,7 @@ typora-copy-images-to:${filename}/../assets
 
 # Retos
 
-1. Reto 1: modifique el programa para que, en lugar de realizar un descuento del 8% si la compra es de 100 € o más, aplique una penalización de 2 € si el precio es inferior a 30 €.
+1. Reto 1: **modifique** el programa para que, en lugar de realizar un descuento del 8% si la compra es de 100 € o más, aplique una penalización de 2 € si el precio es inferior a 30 €.
 
    ```java
    import java.util.Scanner;
