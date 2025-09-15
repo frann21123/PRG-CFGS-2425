@@ -19,7 +19,7 @@ typora-copy-images-to:${filename}/../assets
 
 **Markdown** nace como herramienta de **conversión de texto plano a HTML**. Fue creada en 2004 por John Gruber, y se distribuye de manera gratuita bajo una [licencia BSD](https://es.wikipedia.org/wiki/Licencia_BSD).
 
-Markdown es un maravilloso **lenguaje** para escribir documentos de una manera **sencilla de escribir, y que en todo momento mantenga un diseño legible** que contengan elementos como *secciones*, *párrafos*, *listas*, *vínculos* e *imágenes*, *etc*. Pandoc [http://pandoc.org](http://pandoc.org/) ha extendido enormemente la [sintaxis original de Markdown](http://daringfireball.net/projects/markdown/) y ha añadido unas pequeñas nuevas características tales como notas al pie de página, citas y tablas. Lo más importante que hace Pandoc es hacer posible la generación de documentos en una amplia variedad de formatos desde Markdown, HTML, LaTeX/PDF, MSWord y Slides.
+Markdown es un maravilloso **lenguaje** para escribir documentos de una manera **sencilla de escribir, y que en todo momento mantenga un diseño legible** que contengan elementos como *secciones*, *párrafos*, *listas*, *vínculos* e *imágenes*, *etc*. Pandoc [Web oficial de Pandoc](http://pandoc.org) ha extendido enormemente la [sintaxis original de Markdown](http://daringfireball.net/projects/markdown/) y ha añadido unas pequeñas nuevas características tales como notas al pie de página, citas y tablas. Lo más importante que hace Pandoc es hacer posible la generación de documentos en una amplia variedad de formatos desde Markdown, HTML, LaTeX/PDF, MSWord y Slides.
 
 Este método te permitirá añadir formatos tales como **negritas**, *cursivas* o [enlaces](http://iesmre.com/), utilizando texto plano, lo que permitirá hacer de tu escritura algo más simple y eficiente al evitar distracciones.
 
@@ -53,7 +53,7 @@ Gracias a la simplicidad de su sintaxis podrás utilizarlo siempre que necesites
 
 ## Editores para Markdown
 
-### Off-line
+### offline
 
 - **Typora**
 - MarkdownPad
@@ -80,7 +80,7 @@ Para realizar un salto de línea y empezar **una frase en una línea siguiente d
 
 Por ejemplo si quisieses escribir un poema quedaría tal que así:
 
-*«La tierra estaba seca,
+*«La tierra estaba seca.
 		No había ríos ni fuentes.
 		Y brotó de tus ojos.*
 
@@ -270,7 +270,7 @@ Para insertar una imagen se debe poner un código con dos partes:
 
 Un ejemplo:
 
-​	**\[logo markdown](/assets/mardown_logo.png)**
+**[logo markdown](/assets/markdown_logo.png)**
 
 La visualización de la imagen anterior:
 
@@ -296,6 +296,7 @@ Unos ejemplos:
   ​	<code>```javascript</code> y escribimos el código.
 
 ```javascript
+//codigo aqui 
 function holamundo(){
     console.log ("hola mundo web");
 }
@@ -315,7 +316,7 @@ Para insertar emojis basta con utilizar <code>:</code> seguido del nombre del em
 
 Podemos observar, que en algunos editores markdown, al escribir, por ejemplo, **:a** nos muestra todos los emojiis con la inicial **a**.
 
-Por ejemplo:    <code>: star :</code> 
+Por ejemplo:    <code>:star:</code>
 
 Visualización:   :star:
 
