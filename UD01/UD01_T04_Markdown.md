@@ -49,7 +49,7 @@ Gracias a la simplicidad de su sintaxis podrás utilizarlo siempre que necesites
 
 ### Desventajas
 
-- No tiene muchas funcionalidades (esto es lo que lo hace muy compatible).
+- No tiene muchas funcionalidades ( esto es lo que lo hace muy compatible ).
 
 ## Editores para Markdown
 
